@@ -1,0 +1,41 @@
+@import "bootstrap/dist/css/bootstrap";
+
+.navbar {
+  background-color: black !important;
+}
+.nav-link{
+  color:white !important;
+}
+.navbar-brand
+{
+  color:white !important;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 1.7em;
+  letter-spacing: -1px;
+}
+
+#home-container{
+  margin-top: 55px;
+  text-align: center;
+  color: white;
+}
+
+.jumbotron{
+  background-image: asset-url('car.jpg');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+html,
+body{
+  height: 100%;
+}
+#page-content{
+  flex: 1 0 auto;
+}
+
+#sticky-footer{
+  flex-shrink: none;
+}
